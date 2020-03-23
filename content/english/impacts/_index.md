@@ -1,5 +1,5 @@
 ---
-title: "Contact Us for Any Inquiries"
+title: "Impacts"
 draft: false
 bg_image: "images/gen_background.png"
 ---

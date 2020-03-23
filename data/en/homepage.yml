@@ -2,14 +2,13 @@
 banner:
   enable : true
   bg_image : "images/home_page_pic.jpg"
-  title : "A Digital Marketing <br/> & Design Agency"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : "Vaccination Education at UCLA"
+  content : "Educating Underpriviledged Neighborhoods on the Importance of Vaccines"
 
 ############################# About #################################
 about:
   enable : true
   title : "About Us"
-  description : "Educating Childern on the Importance of Vaccines!"
   content : "We are an outreach organization dedicated to educating elementary through high school students in the Los Angeles 
             community on the benefits of vaccination, in particular the Human Papillomavirus. Our approach targets students as well as parents 
             and teachers, and focuses on discussing misconceptions by an interactive approach to education.we educate students on the importance 

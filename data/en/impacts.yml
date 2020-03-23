@@ -1,0 +1,15 @@
+########################### outcome #############################
+about:
+        enable : true
+        title : "Impacts"
+        image : "images/protect.jpg"
+
+        ########################### outcome #############################
+
+        l1 : " - Educate multiple underserved elementary schools across Los Angeles, such as Alliance College Ready Public School system"
+        l2 : " - Increase student awareness on vaccines and immunology"
+        l3 : " - Encouraging curiosity from a young age"
+        l4 : " - Emphasizing the importance of reputable sources"
+        l5 : " - Outreach to help supplement the educational gap in lesser served communities"
+
+

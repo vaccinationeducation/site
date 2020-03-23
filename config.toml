@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://vaccinationeducation.github.io/"
 title = "Vaccination Education"
 theme = "airspace-hugo"
 # post pagination
@@ -48,8 +48,8 @@ URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Outcomes & Outputs"
-URL = "outcome"
+name = "Impacts"
+URL = "impacts"
 weight = 2
 
 [[menu.main]]
@@ -69,8 +69,8 @@ URL = "/"
 weight = 1
 
 [[menu.footer]]
-name = "Outcomes & Outputs"
-URL = "outcome"
+name = "Impacts"
+URL = "impacts"
 weight = 2
 
 [[menu.footer]]
