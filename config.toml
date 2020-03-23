@@ -1,0 +1,124 @@
+################################# Default configuration ###################
+baseURL = "https://examplesite.com"
+title = "Vaccination Education"
+theme = "airspace-hugo"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "30"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = []
+
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+  
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[menu.main]]
+name = "Outcomes & Outputs"
+URL = "outcome"
+weight = 2
+
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+# footer menu
+[[menu.footer]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[menu.footer]]
+name = "Outcomes & Outputs"
+URL = "outcome"
+weight = 2
+
+[[menu.footer]]
+name = "About"
+URL = "about"
+weight = 3
+
+[[menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/ve_logo.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Contact Information
+email = "vaccineeducation.ucla@gmail.com"
+location = "University of California, Los Angeles"
+
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# search
+[params.search]
+enable = true
+
+
+############################# social site ########################
+
+[[params.social]]
+icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+
